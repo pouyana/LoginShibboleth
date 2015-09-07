@@ -46,3 +46,8 @@ ldap["to_get_type_view"] = "string"
 ldap["to_filter_admin"] = ""
 ldap["to_get_admin"] = ""
 ldap["to_get_type_admin"] = ""
+
+;Controller Settings
+;This config part will be read by the controller class.
+[controller]
+controller["logout_link"]="http://linktologut.com"
