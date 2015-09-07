@@ -29,7 +29,7 @@ datasource["websites"] = "shib, ldap"
 datasource["superuser"] = "shib"
 ```
 
-The datasource helps you to change the way this plug-in accesses the information needed to generate or add users to Piwik. Normally Shibboleth (shib) should suffice. The software will look at the options in config.ini.php as it is ordered. If you want Shibboleth to prevail, add it first. If your first choice for an option is LDAP add (ldap) first. The MySQL database will automatically comes to help if none of the options give a valid result, which is most of the time unlikely. if your User Model is different, you can set other options here. If you use other resources than this tree, you can also define it here and the use the AuthLib class as parent class and extend it to your own Model.
+The datasource helps you to change the way this plug-in accesses the information needed to generate or add users to Piwik. Normally Shibboleth (shib) should suffice. The software will look at the options in config.ini.php as it is ordered. If you want Shibboleth to prevail, add it first. If your first choice for an option is LDAP add (ldap) first. The MySQL database will automatically comes to help if none of the options give a valid result, which is most of the time unlikely. if your User Model is different, you can set other options here. If you use other resources than this three, you can also define it here and then use the AuthLib class as parent class and extend it to your own Model.
 
 ## Shib:
 
